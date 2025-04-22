@@ -9,17 +9,19 @@
 
 body {
   font-family: "Poppins", sans-serif;
+
 }
 
 .container {
-  max-width: 1050px;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 
 .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgb(40, 41, 41);
+  background-color: #111111;
+  color: black;
 }
 
 .nav-container {
@@ -39,7 +41,7 @@ body {
 
 .navbar .nav-container a {
   text-decoration: none;
-  color: #121212;
+  color: #E1D4C1;
   font-weight: 500;
   font-size: 1.2rem;
   padding: 0.7rem;
@@ -85,7 +87,7 @@ body {
   height: 4px;
   width: 100%;
   border-radius: 10px;
-  background: #0e2431;
+  background: #E1D4C1;
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -104,7 +106,7 @@ body {
 
 .navbar .menu-items {
   padding-top: 120px;
-  background-color: #000000;
+  background-color: #000000b9;
   box-shadow: inset 0 0 2000px rgb(0, 0, 0);
   height: 100vh;
   width: 100%;
@@ -115,20 +117,21 @@ body {
   padding-left: 50px;
   transition: transform 0.5s ease-in-out;
   text-align: center;
+  
 }
 
 .navbar .menu-items li {
   margin-bottom: 1.2rem;
   font-size: 1.5rem;
   font-weight: 500;
+  color: beige;
 }
 
 .logo {
-  position: absolute;
-  top: 5px; 
-  right: 15px;
+  margin-left: 82%;
   font-size: 1.2rem;
-  color: #000000;
+  color: #E1D4C1;
+
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
