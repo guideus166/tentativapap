@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>pap</title>
@@ -21,46 +20,29 @@
           <h1>Impressora 3d</h1>
         </div>
         <div class="menu-items">
-
+          <li><a href="index.html">Home</a></li>
           <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="dificuldades.html  ">Dificuldades</a></li>
           <li><a href="projetos.html">Projetos</a></li>
           <li><a href="contactos.html">Contactos</a></li>
-
         </div>
-      </div
+      </div>
     </div>
   </nav>
   <div class="interface">
-    <section class="inicio">
-      <div style=" vertical-align: middle;" class="texto">
-        <h2>Creality K1</h2>    
-        <a href="#meio">Começar</a>
-      </div>
-    </section>
-
-
     <section class="meio">
-      <!-- <img src="assets/pap.png" alt="imagem impressora"> -->
+    <!-- <img src="assets/pap.png" alt="imagem impressora"> -->
       <div class="card" id="meio">
         <div class="text">
-          <h3>Ideia do projeto</h3>
-          <p>A impressão 3D tem vindo a ganhar destaque em diversas áreas, desde o prototipagem rápida até à produção de peças finais. Com o avanço da tecnologia, impressoras como a Creality K1 tornaram-se acessíveis e relativamente fáceis de montar e utilizar. Este trabalho tem como objetivo documentar o processo de montagem e os testes realizados numa impressora 3D Creality K1, destacando os passos principais, as configurações iniciais e a verificação do seu funcionamento. Através desta abordagem prática, pretende-se garantir que o equipamento está corretamente preparado para produzir impressões com qualidade e consistência.</p>
+          <h3>Dificuldades do projeto</h3>
+          <p>Durante o projeto, enfrentei algumas dificuldades por conta da falta de conteúdo disponível na internet e de um manual original pouco detalhado. Tive que aprender muita coisa na prática, fazendo testes. Enfrentei problemas nas primeiras impressões, na troca de filamento e até um rompimento de filamento perto do bico extrusor. Justamente por ter passado por esses perrengues, hoje posso afirmar com segurança que consigo ensinar qualquer pessoa a operar a impressora sem complicações.</p>
           <div class="link">
-            <a href="sobre.html">Proxima pagina</a>
+            <a href="sobre.html">Pagina anterior</a> 
+            <a href="projetos.html">Proxima pagina</a>
           </div>
         </div>
       </div>
     </section>
   </div>
-
-
-
-
-
-
-
-
 <style>
   body{
     background-color: rgb(0, 0, 0, );
@@ -69,6 +51,12 @@
     background-size: 100% 100%;
     height: 100vh;
   }
+
+.link{
+  display: flex;
+
+  justify-content: center;
+}
 
   .text{
     text-align: justify;
@@ -94,32 +82,10 @@
   a{
     font-size: 150%;
     color: #E1D4C1;
-    
-  }
-  .link{
-    display: flex;
-    justify-content: center;
+    text-align: left;
+    margin-inline:30px;
   }
 
-  .texto{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #E1D4C1;
-    width: 25%;
-    height: 20%;
-    border: 1px solid #333333;
-    border-radius: 5rem;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0 5px 10px rgba(70, 70, 70);
-    background-color: #000000ef;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
 
   .card{
     display: flex;
@@ -129,7 +95,6 @@
     border-radius: 5rem;
     padding: 20px;
     margin: 20px;
-    margin-top: 100vh;
     box-shadow: 0 5px 10px rgba(70, 70, 70);
     background-color: #000000e0;
     text-align: justify;
@@ -158,7 +123,6 @@
     height: 60%;
     border: 1px solid #333333;
     border-radius: 5rem;
-    margin-top: 100vh;
     box-shadow: 0 5px 10px rgba(70, 70, 70);
     position: absolute;
     top: 50%;
