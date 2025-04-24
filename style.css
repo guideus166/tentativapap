@@ -22,7 +22,9 @@ body {
   width: 100%;
   box-shadow: 0 1px 4px rgb(40, 41, 41);
   background-color: #111111;
-  color: black;
+  color: rgb(255, 255, 255);
+  z-index: 999;
+  position: fixed;
 }
 
 .nav-container {
@@ -107,7 +109,7 @@ body {
 
 .navbar .menu-items {
   padding-top: 120px;
-  background-color: #000000b9;
+  background-color: #000000cc;
   box-shadow: inset 0 0 2000px rgb(0, 0, 0);
   height: 100vh;
   width: 100%;
@@ -118,14 +120,13 @@ body {
   padding-left: 50px;
   transition: transform 0.5s ease-in-out;
   text-align: center;
-  
 }
 
 .navbar .menu-items li {
   margin-bottom: 1.2rem;
   font-size: 1.5rem;
   font-weight: 500;
-  color: beige;
+  color: #0f0f0f;
 }
 
 .logo {
