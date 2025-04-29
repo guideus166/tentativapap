@@ -15,7 +15,7 @@ body {
 .container {
   width: 100%;
   margin: auto;
-  background-color: #1f1f22;
+  background-color: #000000ef;
 }
 
 .navbar {
@@ -109,17 +109,17 @@ body {
 
 .navbar .menu-items {
   padding-top: 120px;
-  background-color: #000000cc;
+  background-color: #000000;
   box-shadow: inset 0 0 2000px rgb(0, 0, 0);
   height: 100vh;
-  width: 100%;
+  width: 20%;
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
   margin-left: -40px;
   padding-left: 50px;
   transition: transform 0.5s ease-in-out;
-  text-align: center;
+  text-align: left;
 }
 
 .navbar .menu-items li {
