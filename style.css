@@ -15,7 +15,7 @@ body {
 .container {
   width: 100%;
   margin: auto;
-  background-color: #131313de;
+  background-color: #1f1f22;
 }
 
 .navbar {
@@ -123,17 +123,17 @@ body {
 }
 
 .navbar .menu-items li {
-  margin-bottom: 1.2rem;
   font-size: 1.5rem;
   font-weight: 500;
   color: #0f0f0f;
+  margin-bottom: 1.2rem;
 }
+
 
 .logo {
   margin-left: 82%;
   font-size: 1.2rem;
   color: #E1D4C1;
-
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {

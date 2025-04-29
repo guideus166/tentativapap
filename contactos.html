@@ -20,32 +20,36 @@
           <h1>Impressora 3d</h1>
         </div>
         <div class="menu-items">
-          <li><a href="index.html">home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="sobre.html">Sobre</a></li>
           <li><a href="dificuldades.html  ">Dificuldades</a></li>
           <li><a href="projetos.html">Projetos</a></li>
           <li><a href="contactos.html">Contactos</a></li>
-          
-
         </div>
-      </div
+      </div>
     </div>
   </nav>
   <div class="interface">
     <section class="meio">
-    <!-- <img src="assets/pap.png" alt="imagem impressora"> -->
       <div class="card" id="meio">
         <div class="text">
-          <h3>Sobre o projeto</h3>
-          <p>O projeto surgiu a partir de uma sugestão do professor Bruno Leite, meu orientador, para explorar a impressora 3D da escola — uma Creality K1. Trata-se de um modelo acessível, com várias vantagens como estrutura fechada, bico de alta temperatura, extrusora direct drive dual gear e velocidade máxima de 600 mm/s. A partir disso, tive a ideia de criar um manual que permita a qualquer professor, mesmo sem formação técnica, utilizar a impressora com facilidade. Isso amplia as possibilidades de ensino, oferecendo novas formas de aprendizagem aos alunos. Para complementar, desenvolvemos também um site para apresentar o projeto e, mais adiante, um robô impresso em 3D.</p>
-          <div class="link">
-            <a href="projetos.html"><--Pagina anterior</a> 
+          <h3>Contacto</h3>
+          <a href="https://github.com/guideus166"><img src="assets/GitHub_Logo_White.png" alt=""></a>
           </div>
         </div>
       </div>
     </section>
   </div>
+
 <style>
+  a img{
+    width: 60%;
+    margin: auto;
+    display: block;
+    display: flex;
+    place-items: center;
+  }
+
   body{
     background-color: rgb(0, 0, 0, );
     background-position: right center;
@@ -54,15 +58,13 @@
     height: 100vh;
   }
 
-.link{
-  display: flex;
-
-  justify-content: center;
-}
-
   .text{
     text-align: justify;
     margin: 10px;
+  }
+
+  h1{
+    align-items: flex-end;
   }
 
   h2{
@@ -84,10 +86,32 @@
   a{
     font-size: 150%;
     color: #E1D4C1;
-    text-align: left;
-    margin-inline:30px;
+    
+  }
+  .link{
+    display: flex;
+    justify-content: center;
   }
 
+  .texto{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #E1D4C1;
+    width: 25%;
+    height: 20%;
+    border: 1px solid #333333;
+    border-radius: 5rem;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 5px 10px rgba(70, 70, 70);
+    background-color: #000000ef;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
   .card{
     display: flex;
@@ -117,20 +141,6 @@
 
   .interface{
     height: 100vh;
-  }
-
-  img{
-    display: flex;
-    width: 30%;
-    height: 60%;
-    border: 1px solid #333333;
-    border-radius: 5rem;
-    box-shadow: 0 5px 10px rgba(70, 70, 70);
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%); 
-    color: #E1D4C1;
   }
 
   .inicio{
