@@ -101,6 +101,7 @@ body {
   height: 100%;
 }
 #container{ 
+  align-items: center;
   position: relative; 
   width: 70vh; 
   height: 50vh; 
@@ -129,7 +130,7 @@ body {
 #frente p, #frente h3{ 
   margin: 20px; 
   text-align: justify;
-  font-size: 150%;
+  font-size: 100%;
 } 
 
 #tras{ 
