@@ -103,8 +103,8 @@ body {
 #container{ 
   align-items: center;
   position: relative; 
-  width: 70vh; 
-  height: 50vh; 
+  width: 70vw; 
+  height: 70vw; 
 } 
 
 #carta{ 
