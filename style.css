@@ -22,6 +22,10 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+}  
+
+.logo h1{
+  text-align: left;
 }
 
 /* Navbar Responsiva */
@@ -48,7 +52,7 @@ body {
 .nav-container li {
   list-style: none;
 }
-
+ 
 .nav-container a {
   text-decoration: none;
   color: #E1D4C1;
@@ -105,8 +109,10 @@ body {
   font-size: 1.2em;
 }
 
+
+
 /* Ajuste de títulos */
-h1, h2, h3 {
+h1,h2, h3 {
   text-align: center;
   color: #E1D4C1;
 }
@@ -128,6 +134,10 @@ section {
   border-radius: 3vh;
   box-shadow: 0 5px 10px rgba(70, 70, 70, 0.5);
   background-color: #000000da;
+}
+
+.texto a{
+  color: #E1D4C1;
 }
 
 /* Ajustes para telas menores */
