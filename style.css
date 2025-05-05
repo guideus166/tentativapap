@@ -84,6 +84,10 @@ body {
   }
 }
 
+.card3 img{
+  margin-top: 30px;
+}
+
 /* Ajuste Responsivo para cards */
 .card, .card1, .card2, .card3, .card4 {
   width: 90%;
