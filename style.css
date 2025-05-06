@@ -32,7 +32,7 @@ body {
 .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgba(40, 41, 41, 0.5);
-  background-color: #272935;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   position: fixed;
   z-index: 999;
@@ -51,6 +51,7 @@ body {
 
 .nav-container li {
   list-style: none;
+  font-size: larger;
 }
  
 .nav-container a {
@@ -86,6 +87,13 @@ body {
     flex-direction: column;
     cursor: pointer;
   }
+}
+
+.inicio{
+  background-image: url('assets/fundoini.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card3 img{
