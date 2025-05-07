@@ -24,7 +24,7 @@ body {
   flex-direction: column;
 }  
 
-.logo h1{
+h1{
   text-align: left;
 }
 
@@ -50,6 +50,7 @@ body {
 }
 
 .nav-container li {
+  text-align: left;
   list-style: none;
   font-size: larger;
 }
@@ -120,7 +121,7 @@ body {
 
 
 /* Ajuste de títulos */
-h1,h2, h3 {
+h2, h3 {
   text-align: center;
   color: #E1D4C1;
 }
