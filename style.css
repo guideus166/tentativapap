@@ -24,10 +24,6 @@ body {
   flex-direction: column;
 }  
 
-h1{
-  text-align: left;
-}
-
 /* Navbar Responsiva */
 .navbar {
   width: 100%;
@@ -118,11 +114,9 @@ h1{
   font-size: 1.2em;
 }
 
-
-
 /* Ajuste de títulos */
-h2, h3 {
-  text-align: center;
+h1,h2, h3 {
+  text-align: left;
   color: #E1D4C1;
 }
 
