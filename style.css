@@ -114,9 +114,13 @@ body {
   font-size: 1.2em;
 }
 
+.navbar h1{
+  text-align: center;
+}
+
 /* Ajuste de títulos */
-h1,h2, h3 {
-  text-align: left;
+h2, h3 {
+  text-align: center;
   color: #E1D4C1;
 }
 
