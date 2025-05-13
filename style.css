@@ -48,6 +48,7 @@ body {
 .nav-container li {
   text-align: left;
   list-style: none;
+  font-size: larger;
 }
  
 .nav-container a {
@@ -60,8 +61,6 @@ body {
 .nav-container a:hover {
   font-weight: bolder;
 }
-
-
 
 /* Responsividade do menu hambúrguer */
 @media (max-width: 768px) {
@@ -99,7 +98,7 @@ body {
 }
 
 /* Ajuste Responsivo para cards */
-.card{
+.card, .card1, .card2, .card3, .card4 {
   width: 90%;
   max-width: 600px;
   margin: 20px auto;
@@ -108,55 +107,6 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   color: #E1D4C1;
   box-shadow: 0 5px 10px rgba(70, 70, 70, 0.5);
-  margin-left: 1%;
-}
-
-.card1{
-  width: 90%;
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 3vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #E1D4C1;
-  box-shadow: 0 5px 10px rgba(70, 70, 70, 0.5);
-  margin-left: 50%;
-}
-
-.card2{
-  width: 90%;
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 3vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #E1D4C1;
-  box-shadow: 0 5px 10px rgba(70, 70, 70, 0.5);
-  margin-left: 1%;
-}
-
-.card3 {
-  width: 90%;
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 3vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #E1D4C1;
-  box-shadow: 0 5px 10px rgba(70, 70, 70, 0.5);
-  margin-left: 50%;
-}
-
-.card4 {
-  width: 90%;
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 3vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #E1D4C1;
-  box-shadow: 0 5px 10px rgba(70, 70, 70, 0.5);
-
 }
 
 .text {
@@ -164,9 +114,8 @@ body {
   font-size: 1.2em;
 }
 
-h1{
-  text-align: left;
-  color: #E1D4C1;
+.logo h1{
+  text-align: center;
 }
 
 /* Ajuste de títulos */
