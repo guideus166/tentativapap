@@ -1,5 +1,5 @@
 /* Reset básico */
-* {
+    * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -93,7 +93,7 @@ body {
     background-position: center;
 }
 
-.card3 img{
+.card, .card1, .card2, .card3, .card4 img{
   margin-top: 30px;
 }
 
