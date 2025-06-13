@@ -15,7 +15,7 @@ img {
 /* Configuração global do body */
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #272935;
+  background-color: #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -88,9 +88,9 @@ body {
 
 .inicio{
   background-image: url('assets/fundoini.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .card, .card1, .card2, .card3, .card4 img{
@@ -106,7 +106,7 @@ body {
   border-radius: 3vh;
   background-color: rgba(0, 0, 0, 0.5);
   color: #E1D4C1;
-  box-shadow: 0 5px 10px rgba(70, 70, 70, 0.5);
+  box-shadow: 0 5px 10px rgba(70, 70, 70, 0.192);
 }
 
 .text {
